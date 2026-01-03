@@ -1,0 +1,15 @@
+{
+  "name": "simple-jenkins-node",
+  "version": "1.0.0",
+  "description": "Minimal Node.js project for Jenkins demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=./test-results/results.xml"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "mocha-junit-reporter": "^2.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
